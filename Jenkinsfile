@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Mañana') {
+        stage('Al alba') {
             steps {
                 echo 'Suena el despertador'
                 echo 'Me despierto temprano'
@@ -10,7 +10,7 @@ pipeline {
                 echo 'Desayuno con café'
             }
         }
-        stage('Mediodía') {
+        stage('Mediodia') {
             steps {
                 echo 'Almuerzo para reponer fuerzas'
                 echo 'Me tomo mi café del mediodía'
